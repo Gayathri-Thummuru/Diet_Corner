@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diet Plan</title>
+  <style>
+table 
+{
+border-collapse: collapse;
+width: 100%;
+}
+th, td 
+{
+padding:8px;
+text-align:left;  
+border: 3px solid black;
+}
+h1
+{
+text-align:center;
+}
+ body
+ {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   </style>
+</head>
+<body>
+  <h1>Dental</h1>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Breakfast (8:00 am)</th>
+      <th>Lunch (12:30 pm)</th>
+      <th>Snacks (3:00 pm)</th>
+      <th>Dinner (7:00 pm)</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Oatmeal with berries</td>
+      <td>Grilled chicken salad</td>
+      <td>Greek yogurt with nuts</td>
+      <td>Salmon with roasted vegetables</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Avocado toast</td>
+      <td>Quinoa and vegetable stir-fry</td>
+      <td>Fruit salad</td>
+      <td>Lean beef with steamed broccoli</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Scrambled eggs with whole wheat toast</td>
+      <td>Spinach and feta stuffed chicken breast</td>
+      <td>Vegetable sticks with hummus</td>
+      <td>Baked cod with quinoa</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Yogurt with granola and berries</td>
+      <td>Vegetable and lentil soup</td>
+      <td>Hard-boiled eggs</td>
+      <td>Grilled shrimp with quinoa</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Whole wheat pancakes with fruit</td>
+      <td>Turkey and vegetable wrap</td>
+      <td>Nuts and dried fruits</td>
+      <td>Roasted chicken with sweet potatoes</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Smoothie with spinach and banana</td>
+      <td>Salad with grilled tofu</td>
+      <td>Cottage cheese with fresh fruits</td>
+      <td>Stir-fried vegetables with brown rice</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Whole grain cereal with milk</td>
+      <td>Quinoa and black bean salad</td>
+      <td>Trail mix</td>
+      <td>Baked chicken with roasted vegetables</td>
+    </tr>
+  </table>
+</body>
+</html>

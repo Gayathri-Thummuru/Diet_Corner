@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diet Plan Generator</title>
+<style>
+ body
+{
+    background-image: url("https://img.freepik.com/free-photo/top-view-healthy-balanced-vegetarian-food_1150-37023.jpg?w=2000");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute; right:100px;top:150px;
+    font-size:30px;  
+}
+</style>
+       
+  <script>
+    function generateDietPlan() 
+    {
+      // Get selected values
+      var age = document.getElementById("age").value;
+      var gender = document.querySelector('input[name="gender"]:checked').value;
+      var healthCondition = document.getElementById("healthCondition").value;
+
+      // Perform logic to generate diet plan based on selected options
+      var dietPlan = "";
+if (healthCondition == "underweight" && age=="child" && gender=="male")
+{
+window.open("http://localhost/project/childmaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmalees.html");
+ }
+else if (healthCondition == "digestion" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaleo.html");
+ }
+else if (healthCondition == "dental" && age=="child" && gender=="male")
+ {
+   window.open("http://localhost/project/childmaledental.html");
+ }
+
+else if (healthCondition == "underweight" && age=="child" && gender=="female")
+{
+window.open("http://localhost/project/childfemaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/chidfemaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemalees.html");
+ }
+else if (healthCondition == "digestion" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemaleo.html");
+ }
+else if (healthCondition == "dental" && age=="child" && gender=="female")
+ {
+   window.open("http://localhost/project/childfemaledental.html");
+ }
+
+
+else if (healthCondition == "underweight" && age=="teen" && gender=="male")
+{
+window.open("http://localhost/project/teenmaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmalees.html");
+ }
+else if (healthCondition == "digestion" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmaleo.html");
+ }
+else if (healthCondition == "dental" && age=="teen" && gender=="male")
+ {
+   window.open("http://localhost/project/teenmaledental.html");
+ }
+
+else if (healthCondition == "underweight" && age=="teen" && gender=="female")
+{
+window.open("http://localhost/project/teenfemaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemalees.html");
+ }
+else if (healthCondition == "pcos" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemalepcos.html");
+ }
+else if (healthCondition == "digestion" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemaleo.html");
+ }
+else if (healthCondition == "dental" && age=="teen" && gender=="female")
+ {
+   window.open("http://localhost/project/teenfemaledental.html");
+ }
+
+
+else if (healthCondition == "underweight" && age=="adult" && gender=="male")
+{
+window.open("http://localhost/project/adultmaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmalees.html");
+ }
+else if (healthCondition == "digestion" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmaleo.html");
+ }
+else if (healthCondition == "dental" && age=="adult" && gender=="male")
+ {
+   window.open("http://localhost/project/adultmaledental.html");
+ }
+
+else if (healthCondition == "underweight" && age=="adult" && gender=="female")
+{
+window.open("http://localhost/project/adultfemaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemalees.html");
+ }
+else if (healthCondition == "pcos" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemalepcos.html");
+ }
+else if (healthCondition == "pregnancy" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemalepregnancy.html");
+ }
+
+else if (healthCondition == "digestion" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemaleo.html");
+ }
+else if (healthCondition == "dental" && age=="adult" && gender=="female")
+ {
+   window.open("http://localhost/project/adultfemaledental.html");
+ }
+
+else if (healthCondition == "underweight" && age=="senior" && gender=="male")
+{
+window.open("http://localhost/project/seniormaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormalees.html");
+ }
+else if (healthCondition == "digestion" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaleo.html");
+ }
+else if (healthCondition == "dental" && age=="senior" && gender=="male")
+ {
+   window.open("http://localhost/project/seniormaledental.html");
+ }
+
+else if (healthCondition == "underweight" && age=="senior" && gender=="female")
+{
+window.open("http://localhost/project/seniorfemaleuw.html");
+}
+else if (healthCondition == "obesity" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemaleobesity.html");
+ }
+else if (healthCondition == "diabetes" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemalediabetes.html");
+ }
+else if (healthCondition == "gastric" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemalegastric.html");
+ }
+else if (healthCondition == "heartstroke" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemaleheart.html");
+ }
+else if (healthCondition == "eyesight" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemalees.html");
+ }
+else if (healthCondition == "digestion" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemaledigestion.html");
+ }
+else if (healthCondition == "osteoporosis" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemaleo.html");
+ }
+else if (healthCondition == "dental" && age=="senior" && gender=="female")
+ {
+   window.open("http://localhost/project/seniorfemaledental.html");
+ }
+
+else
+{
+alert("condition not found");
+}
+
+      // Display the generated diet plan
+      document.getElementById("dietPlan").innerHTML = dietPlan;
+    }
+  </script>
+</head>
+<body>
+  <h1>Diet Plan Generator</h1>
+
+<label for="age">Age:</label>
+<select id="age">
+  <option value="child">select</option>
+  <option value="child">Child (0-12 years)</option>
+  <option value="teen">Teen (13-19 years)</option>
+  <option value="adult">Adult (20-59 years)</option>
+  <option value="senior">Senior (60+ years)</option>
+</select>
+
+   <br>
+   <br>
+
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+  <br>
+  <br>
+
+  <label for="healthCondition">Health Condition:</label>
+  <select id="healthCondition">
+    <option value="">select</option>
+    <option value="underweight">Under weight</option>
+    <option value="obesity">Obesity</option>
+    <option value="diabetes">Diabetes</option>
+    <option value="gastric">Gastric</option>
+    <option value="heartstroke">Heart stroke</option>
+    <option value="eyesight">Eye sight</option>
+    <option value="pcos">Pcos</option>
+    <option value="pregnancy">Pregnancy</option>
+    <option value="digestion">Digestion</option>
+    <option value="osteoporosis">Osteoporosis</option>
+    <option value="dental">Dental</option>
+  </select>
+
+  <br>
+  <br>
+
+  <button onclick="generateDietPlan()">Generate diet plan</button>
+
+  <br>
+  <br>
+  <p id="dietPlan"></p>
+</body>
+</html>

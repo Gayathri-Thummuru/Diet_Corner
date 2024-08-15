@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diet Plan</title>
+  <style>
+table 
+{
+border-collapse: collapse;
+width: 100%;
+}
+th, td 
+{
+padding:8px;
+text-align:left;  
+border: 3px solid black;
+}
+h1
+{
+text-align:center;
+}
+ body
+ {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+  </style>
+</head>
+<body>
+  <h1>Eye sight</h1>
+  
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Breakfast (8:00 am)</th>
+      <th>Lunch (12:30 pm)</th>
+      <th>Snacks (3:00 pm)</th>
+      <th>Dinner (7:00 pm)</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Oatmeal with fruits and nuts</td>
+      <td>Grilled chicken with steamed vegetables and brown rice</td>
+      <td>Carrot sticks with hummus</td>
+      <td>Salmon with quinoa and roasted asparagus</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Whole wheat toast with avocado and eggs</td>
+      <td>Turkey wrap with whole grain bread, lettuce, and tomato</td>
+      <td>Greek yogurt with berries</td>
+      <td>Veggie stir-fry with tofu and brown rice</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Fruit smoothie with yogurt and spinach</td>
+      <td>Quinoa salad with mixed vegetables and grilled shrimp</td>
+      <td>Trail mix (nuts and dried fruits)</td>
+      <td>Grilled chicken with sweet potato and green beans</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Whole grain cereal with low-fat milk</td>
+      <td>Vegetable soup with whole grain bread</td>
+      <td>Cottage cheese with sliced peaches</td>
+      <td>Lean beef burger with whole wheat bun and side salad</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Scrambled eggs with whole wheat toast</td>
+      <td>Grilled salmon with quinoa and steamed broccoli</td>
+      <td>Apple slices with peanut butter</td>
+      <td>Veggie pizza with whole wheat crust</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Yogurt with granola and fresh berries</td>
+      <td>Chicken and vegetable kebabs with brown rice</td>
+      <td>Hard-boiled eggs</td>
+      <td>Shrimp stir-fry with whole grain noodles</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Whole grain pancakes with maple syrup</td>
+      <td>Grilled chicken Caesar salad</td>
+      <td>Mixed nuts</td>
+      <td>Vegetable curry with brown rice</td>
+    </tr>
+  </table>
+  
+</body>
+</html>

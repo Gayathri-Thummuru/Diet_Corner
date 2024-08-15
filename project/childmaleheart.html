@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diet Plan</title>
+  <style>
+table 
+{
+border-collapse: collapse;
+width: 100%;
+}
+th, td 
+{
+padding:8px;
+text-align:left;  
+border: 3px solid black;
+}
+h1
+{
+text-align:center;
+}
+ body
+ {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+  </style>
+</head>
+<body>
+  <h1>Heart stroke</h1>
+  
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Breakfast (8:00 AM)</th>
+      <th>Lunch (12:30 PM)</th>
+      <th>Snacks (3:00 PM)</th>
+      <th>Dinner (7:00 PM)</th>
+    </tr>
+    
+    <tr>
+      <td>Monday</td>
+      <td>Whole wheat toast with avocado and tomato slices</td>
+      <td>Grilled chicken breast with steamed vegetables and brown rice</td>
+      <td>Carrot sticks with hummus</td>
+      <td>Salmon fillet with quinoa and roasted asparagus</td>
+    </tr>
+    
+    <tr>
+      <td>Tuesday</td>
+      <td>Oatmeal with berries and a glass of milk</td>
+      <td>Vegetable soup with whole grain bread</td>
+      <td>Yogurt with mixed nuts</td>
+      <td>Grilled turkey breast with sweet potato mash and green beans</td>
+    </tr>
+    
+    <tr>
+      <td>Wednesday</td>
+      <td>Scrambled eggs with spinach and whole wheat toast</td>
+      <td>Brown rice with black beans and grilled vegetables</td>
+      <td>Apple slices with peanut butter</td>
+      <td>Lean beef stir-fry with broccoli and brown rice</td>
+    </tr>
+    
+    <tr>
+      <td>Thursday</td>
+      <td>Fruit salad with Greek yogurt</td>
+      <td>Grilled fish with quinoa salad</td>
+      <td>Cucumber slices with ranch dip</td>
+      <td>Chicken breast with roasted sweet potatoes and mixed greens</td>
+    </tr>
+    
+    <tr>
+      <td>Friday</td>
+      <td>Whole grain cereal with milk and sliced bananas</td>
+      <td>Whole wheat pasta with tomato sauce and grilled chicken</td>
+      <td>Trail mix with dried fruits</td>
+      <td>Vegetable stir-fry with tofu and brown rice</td>
+    </tr>
+    
+    <tr>
+      <td>Saturday</td>
+      <td>Vegetable omelette with whole wheat toast</td>
+      <td>Chicken and vegetable kebabs with couscous</td>
+      <td>Homemade popcorn</td>
+      <td>Grilled salmon with quinoa and roasted vegetables</td>
+    </tr>
+    
+    <tr>
+      <td>Sunday</td>
+      <td>Whole wheat pancakes with fresh berries</td>
+      <td>Minestrone soup with whole grain bread</td>
+      <td>Orange slices</td>
+      <td>Lean beef with sweet potato fries and steamed broccoli</td>
+    </tr>
+  </table>
+</body>
+</html>
